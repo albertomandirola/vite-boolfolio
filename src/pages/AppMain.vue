@@ -1,6 +1,6 @@
 <script>
-import ProjectCard from './components/ProjectCard.vue';
-import { store } from './store.js';
+import ProjectCard from '../components/ProjectCard.vue';
+import { store } from '../store.js';
 import axios from 'axios';
 export default {
     name: 'AppMain',
@@ -33,11 +33,10 @@ export default {
             })
         }
     },
-    
 }
 </script>
 <template lang="">
-  
+    
     <main>
         <div class="container">
             <div class="row">
@@ -61,8 +60,8 @@ export default {
             </div>
         </div>
     </main>
-  
+    
 </template>
 <style lang="scss">
-@use 'src/style/general.scss' 
+    @use 'src/style/general.scss'
 </style>
